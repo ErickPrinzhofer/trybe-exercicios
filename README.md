@@ -2,5 +2,4 @@
 
 Este repositório contém todos os exercicios que eu fiz enquanto estudei na Trybe.
 
-Alterando direto pela main
-Alterando direto pela main/2
+Puxando a atualização, git pull.
