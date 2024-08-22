@@ -5,38 +5,45 @@
   <meta charset="UTF-8"> <!--Esse UTF-8 permite colocar caracteres especiais na página, tipo acento, ç...-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Capita o tamanho da tela do usuário-->
   <title>Spotify Premium</title><!--Título que aparece na aba-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> <!--Importei o icone do instagram-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!--Importei o icone do instagram-->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body> <!-- Corpo da página, o que o usuário vai ver-->
   <header>
     <div>
-      <img class="spotify-logo" src="https://images.squarespace-cdn.com/content/v1/5b295689da02bcf880b830c6/1581369088078-IS6E8G1N1VM4H7KBX4CR/pngkey.com-spotify-icon-png-1337485.png"
-      alt="Spotify Logo">
-    <ul class="menu">
-      <li>Premium</li>
-      <li>Suporte</li>
-      <li>Baixar</li>
-      <li>|</li>
-      <li>Inscrever-se</li>
-      <li>Baixar</li>
-    </ul>
+      <img class="spotify-logo"
+        src="https://images.squarespace-cdn.com/content/v1/5b295689da02bcf880b830c6/1581369088078-IS6E8G1N1VM4H7KBX4CR/pngkey.com-spotify-icon-png-1337485.png"
+        alt="Spotify Logo">
+      <ul class="menu">
+        <li>Premium</li>
+        <li>Suporte</li>
+        <li>Baixar</li>
+        <li>|</li>
+        <li>Inscrever-se</li>
+        <li>Baixar</li>
+      </ul>
     </div>
-    
   </header>
 
-  <section style="background: linear-gradient(to bottom, rgb(121, 47, 145), rgb(18, 18, 18));">
-    <h1>R$ 0,00 por 3 meses de Premium</h1>
-    <h2>Curta músicas sem anúncios, ouça no modo offline e muito mais. Cancele quando quiser.</h2>
+  <section class="section-premium">
+    <div>
+      <h1>R$ 0,00 por 3 meses de Premium</h1>
+      <h2>Curta músicas sem anúncios, ouça no modo offline e muito mais. Cancele quando quiser.</h2>
 
-    <button>Experimente de graça por 3 meses</button>
-    <button>Ver todos os planos</button>
-    <p>Somente Premium Individual. Grátis por 3 meses, depois R$ 21,90 por mês. Oferta disponível apenas para quem nunca
-      teve o Premium. <a href="https://www.spotify.com/br-pt/legal/premium-promotional-offer-terms/">Sujeito a
-        termos</a> A oferta termina em 17 de setembro de 2024.</p>
+      <button id="btn-experimente-de-graca-por-3-meses">Experimente de graça por 3 meses</button>
+      <button id="btn-ver-todos-os-planos">Ver todos os planos</button>
+
+      <p>Somente Premium Individual. Grátis por 3 meses, depois R$ 21,90 por mês. Oferta disponível apenas para quem
+        nunca
+        teve o Premium. <a href="https://www.spotify.com/br-pt/legal/premium-promotional-offer-terms/">Sujeito a
+          termos</a> A oferta termina em 17 de setembro de 2024.</p>
+    </div>
   </section>
   <h2>Por que ser Premium?</h2>
+
+
   <section>
 
 
@@ -181,7 +188,7 @@
     </p>
 
   </section>
-  
+
   <footer style="background-color: black;">
     <div>
       <img width="132px"
@@ -194,39 +201,47 @@
         <li>EMPRESA</li>
         <li><a href="https://www.spotify.com/br-pt/about-us/contact/">Sobre</a></li>
         <li><a href="https://www.lifeatspotify.com/#_gl=1*izcvzg*_gcl_au*MjkyOTQxOTg3LjE3MjM2NzYyNjI.">Empregos</a></li>
-        <li><a href="https://newsroom.spotify.com/#_gl=1*1k0iuby*_gcl_au*MjkyOTQxOTg3LjE3MjM2NzYyNjI.">For the Record</a></li>
+        <li><a href="https://newsroom.spotify.com/#_gl=1*1k0iuby*_gcl_au*MjkyOTQxOTg3LjE3MjM2NzYyNjI.">For the
+            Record</a></li>
       </ul>
     </div>
-    
+
     <div>
       <ul style="color: white;">
         <li>COMMUNIDADES</li>
-        <li><a href="https://artists.spotify.com/#_gl=1*1k0iuby*_gcl_au*MjkyOTQxOTg3LjE3MjM2NzYyNjI.">Para Artistas</a></li>
-        <li><a href="https://developer.spotify.com/#_gl=1*1k0iuby*_gcl_au*MjkyOTQxOTg3LjE3MjM2NzYyNjI.">Desenvolvedores</a></li>
+        <li><a href="https://artists.spotify.com/#_gl=1*1k0iuby*_gcl_au*MjkyOTQxOTg3LjE3MjM2NzYyNjI.">Para Artistas</a>
+        </li>
+        <li><a
+            href="https://developer.spotify.com/#_gl=1*1k0iuby*_gcl_au*MjkyOTQxOTg3LjE3MjM2NzYyNjI.">Desenvolvedores</a>
+        </li>
         <li><a href="https://ads.spotify.com/#_gl=1*1q2qbky*_gcl_au*MjkyOTQxOTg3LjE3MjM2NzYyNjI.">Publicidade</a></li>
-        <li><a href="https://investors.spotify.com/#_gl=1*mszxz4*_gcl_au*MjkyOTQxOTg3LjE3MjM2NzYyNjI.">Investidores</a></li>
+        <li><a href="https://investors.spotify.com/#_gl=1*mszxz4*_gcl_au*MjkyOTQxOTg3LjE3MjM2NzYyNjI.">Investidores</a>
+        </li>
         <li><a href="https://spotifyforvendors.com/">Fornecedores</a></li>
       </ul>
     </div>
-    
+
     <div>
       <ul style="color: white;">
         <li>LINKS ÚTEIS</li>
         <li><a href="https://support.spotify.com/#_gl=1*8u4muf*_gcl_au*MjkyOTQxOTg3LjE3MjM2NzYyNjI.">Suporte</a></li>
         <li><a href="https://open.spotify.com/#_gl=1*8u4muf*_gcl_au*MjkyOTQxOTg3LjE3MjM2NzYyNjI.">Player da Web</a></li>
         <li><a href="https://www.spotify.com/br-pt/free/">Aplicativo móvel grátis</a></li>
-        </ul>
+      </ul>
     </div>
-    
+
     <div>
       <ul style="color: white;">
         <li>PLANOS DO SPOTIFY</li>
-        <li><a href="https://www.spotify.com/br-pt/premium/?ref=spotifycom_footer_premium_individual">Plano individual</a></li>
+        <li><a href="https://www.spotify.com/br-pt/premium/?ref=spotifycom_footer_premium_individual">Plano
+            individual</a></li>
         <li><a href="https://www.spotify.com/br-pt/duo/?ref=spotifycom_footer_premium_duo">Premium Duo</a></li>
-        <li><a href="https://www.spotify.com/br-pt/family/?ref=spotifycom_footer_premium_family">Premium Família</a></li>
-        <li><a href="https://www.spotify.com/br-pt/student/?ref=spotifycom_footer_premium_student">Premium Universitário</a></li>
+        <li><a href="https://www.spotify.com/br-pt/family/?ref=spotifycom_footer_premium_family">Premium Família</a>
+        </li>
+        <li><a href="https://www.spotify.com/br-pt/student/?ref=spotifycom_footer_premium_student">Premium
+            Universitário</a></li>
         <li><a href="https://www.spotify.com/br-pt/free/?ref=spotifycom_footer_free">Spotify Free</a></li>
-        </ul>
+      </ul>
     </div>
 
     <div style="color: white; font-size: 40px;">

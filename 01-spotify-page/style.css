@@ -8,7 +8,6 @@ header {
     background-color: rgb(0, 0, 0);
     display: flex;
     padding: 15px;
-    font-family: circu;
     
 }
 
@@ -32,4 +31,50 @@ header div{
 .menu li{
     margin-left: 25px;
     list-style: none;
+}
+
+.section-premium{
+    background: linear-gradient(to bottom, rgb(121, 47, 145), rgb(18, 18, 18));
+    color: white;
+
+}
+
+
+.section-premium div{
+    width: 80%;
+    margin:auto;
+}
+
+.section-premium h1{
+    font-size: 48px;
+    padding: 40px 0 10px 0; 
+}
+.section-premium h2{
+    font-size: 16px;
+    padding: 0 0 40px 0;
+}
+
+#btn-experimente-de-graca-por-3-meses{
+    border:0;
+    background-color: #7c2f94;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+#btn-ver-todos-os-planos{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+.section-premium div p{
+    padding: 25px 0 150px;
+    font-size:11px;
+}
+
+.section-premium a{
+    color: white;
 }
