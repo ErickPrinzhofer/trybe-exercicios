@@ -1,0 +1,35 @@
+/* Aplica na página inteira */
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 15px;
+    font-family: circu;
+    
+}
+
+header div{
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.spotify-logo {
+    width: 132px;
+}
+
+.menu { 
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    margin-left: 25px;
+    list-style: none;
+}
