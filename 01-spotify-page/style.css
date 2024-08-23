@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'circular-font';
+    src: url('FontsFree-Net-CircularStd-Bold.ttf') format('truetype');
+}
 /* Aplica na página inteira */
 *{
     margin: 0; 
     padding: 0;
+    font-family: 'circular-font';
 }
 
 header {
@@ -26,6 +31,7 @@ header div{
     color: white;
     display: flex;
     align-items: center;
+    font-size: 16px;
 }
 
 .menu li{
@@ -47,7 +53,7 @@ header div{
 
 .section-premium h1{
     font-size: 48px;
-    padding: 40px 0 10px 0; 
+    padding: 60px 0 10px 0; 
 }
 .section-premium h2{
     font-size: 16px;
@@ -77,4 +83,39 @@ header div{
 
 .section-premium a{
     color: white;
+}
+
+
+.section-why-premium{
+    padding: 40px 0 60px 0;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.section-why-premium h2{
+    
+    padding: 30px;
+}
+
+.premium-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.premium-items img{
+    width: 50px;
+    padding-bottom: 10px;
+
+    
+}
+
+.premium-items div{
+    padding: 0px 10px;
+    padding-bottom: 20px;
+}
+
+.premium-items h4{
+    padding-bottom: 20px;
+    font-size: 20px;
 }
