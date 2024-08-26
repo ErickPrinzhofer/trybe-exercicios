@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'circular-font';
+    src: url('FontsFree-Net-CircularStd-Bold.ttf') format('truetype');
+}
+/* Aplica na página inteira */
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: 'circular-font';
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 15px;
+    
+}
+
+header div{
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.spotify-logo {
+    width: 132px;
+}
+
+.menu { 
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.menu li{
+    margin-left: 25px;
+    list-style: none;
+}
+
+.section-premium{
+    background: linear-gradient(to bottom, rgb(121, 47, 145), white);
+    color: white;
+
+}
+
+
+.section-premium div{
+    width: 80%;
+    margin:auto;
+}
+
+.section-premium h1{
+    font-size: 48px;
+    padding: 60px 0 10px 0; 
+}
+.section-premium h2{
+    font-size: 16px;
+    padding: 0 0 40px 0;
+}
+
+#btn-experimente-de-graca-por-3-meses{
+    border:0;
+    background-color: #7c2f94;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+#btn-ver-todos-os-planos{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+.section-premium div p{
+    padding: 25px 0 150px;
+    font-size:11px;
+    color: black;
+}
+
+.section-premium a{
+    color: white;
+}
+
+
+.section-why-premium{
+    padding: 40px 0 60px 0;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.section-why-premium h2{
+    font-size: 30px;
+    padding: 30px;
+}
+
+.premium-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.premium-items img{
+    width: 50px;
+    padding-bottom: 10px;
+
+    
+}
+
+.premium-items div{
+    padding: 0px 10px;
+    padding-bottom: 20px;
+}
+
+.premium-items h4{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.section-chose-plan{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+
+.section-chose-plan div{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.section-chose-plan h2{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.section-chose-plan h3{
+    font-size: 30px;
+    padding: 10px 0 20px 0;
+}
+
+.credit-cards{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.credit-cards img{
+    width: 30px;
+}
+
+.section-plan{
+    display: flex;
+    color: white;
+}
+
+.plan-style{
+    background-color: rgb(36, 36, 36);
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 600px;
+    max-width: 180px;
+    font-size: 15px;
+}
+
+.free-month{
+    font-size: 15px;
+}
+
+.after-pay{
+    font-size: 10px;
+}
+
+.plan-style li{
+    text-align: left;
+    padding-left: 0;
+    font-size: 15px;
+    margin-bottom: 15px;
+    list-style-type: circle;
+}
+
+.plan-style hr{
+    width: 100%;
+    margin: 10px;
+}
+
+
+
+.btn-comece-agora{
+    border:0;
+    background-color: #9758aa;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    margin: auto;
+    
+}
+
+.description-plan{
+    color: rgb(204, 203, 203);
+    font-size: 10px;
+}
