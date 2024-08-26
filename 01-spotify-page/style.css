@@ -40,7 +40,7 @@ header div{
 }
 
 .section-premium{
-    background: linear-gradient(to bottom, rgb(121, 47, 145), rgb(18, 18, 18));
+    background: linear-gradient(to bottom, rgb(121, 47, 145), white);
     color: white;
 
 }
@@ -79,6 +79,7 @@ header div{
 .section-premium div p{
     padding: 25px 0 150px;
     font-size:11px;
+    color: black;
 }
 
 .section-premium a{
@@ -94,7 +95,7 @@ header div{
 }
 
 .section-why-premium h2{
-    
+    font-size: 30px;
     padding: 30px;
 }
 
@@ -118,4 +119,92 @@ header div{
 .premium-items h4{
     padding-bottom: 20px;
     font-size: 20px;
+}
+
+.section-chose-plan{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+
+.section-chose-plan div{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.section-chose-plan h2{
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.section-chose-plan h3{
+    font-size: 30px;
+    padding: 10px 0 20px 0;
+}
+
+.credit-cards{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.credit-cards img{
+    width: 30px;
+}
+
+.section-plan{
+    display: flex;
+    color: white;
+}
+
+.plan-style{
+    background-color: rgb(36, 36, 36);
+    box-shadow: 1px 1px 10px;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 600px;
+    max-width: 180px;
+    font-size: 15px;
+}
+
+.free-month{
+    font-size: 15px;
+}
+
+.after-pay{
+    font-size: 10px;
+}
+
+.plan-style li{
+    text-align: left;
+    padding-left: 0;
+    font-size: 15px;
+    margin-bottom: 15px;
+    list-style-type: circle;
+}
+
+.plan-style hr{
+    width: 100%;
+    margin: 10px;
+}
+
+
+
+.btn-comece-agora{
+    border:0;
+    background-color: #9758aa;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    margin: auto;
+    
+}
+
+.description-plan{
+    color: rgb(204, 203, 203);
+    font-size: 10px;
 }
